@@ -18,6 +18,11 @@
                   style="cursor: pointer;">
                   LOGOUT
                 </li>
+                <router-link 
+                  :to="{ name: 'vehicle'}"
+                  class="list-group-item text-dark text-decoration-none">
+                  VEHICLE
+                </router-link>
               </ul>
             </div>
           </div>

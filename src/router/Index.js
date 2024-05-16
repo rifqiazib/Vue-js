@@ -15,6 +15,21 @@ const routes = [
         'path' : '/dashboard',
         'name' : 'dashboard',
         component : () => import ('@/views/dashboard/IndexUser.vue')
+    },
+    {
+        'path' : '/vehicle',
+        'name' : 'vehicle',
+        component : () => import ('@/views/vehicle/IndexVehicle.vue')
+    },
+    {
+        'path' : '/vehicle/create',
+        'name' : 'create.vehicle',
+        component : () => import ('@/views/vehicle/CreateVehicle.vue')
+    },
+    {
+        'path' : '/vehicle/:id',
+        'name' : 'edit.vehicle',
+        component : () => import ('@/views/vehicle/EditVehicle.vue')
     }
 ];
 
